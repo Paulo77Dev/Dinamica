@@ -6,7 +6,7 @@ function App() {
   const [posicao, setPosicao] = useState(0); // Controla la posición del cuadrado.
   const [visivel, setVisivel] = useState(true);
 
-  // Lista de colores disponibles
+  // Lista de colores disponibles para en cuadrado
   const cores = [
     'cor-inicial', 
     'cor-alternativa', 
