@@ -1,0 +1,64 @@
+/* Estilización general */
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para la caja de color */
+.caixa {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  transition: background-color 0.5s;
+}
+
+.cor-inicial {
+  background-color: lightgray;
+}
+
+.cor-alternativa {
+  background-color: blue;
+}
+
+.cor-rojo {
+  background-color: #ff0000; /* Rojo */
+}
+
+.cor-azul {
+  background-color: #0000ff; /* Azul */
+}
+
+.cor-verde {
+  background-color: #008000; /* Verde */
+}
+
+.cor-amarelo {
+  background-color: #ffff00; /* Amarillo */
+}
+
+/* Estilo para el cuadrado animado */
+.quadrado {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Estilo para el texto oculto/revelado */
+.texto {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.oculto {
+  opacity: 0;
+}
